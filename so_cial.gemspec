@@ -1,5 +1,6 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/so_cial/version', __FILE__)
+$:.push File.expand_path("../lib", __FILE__)
+require "so_cial/version"
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Christian Hjalmarsson"]
