@@ -1,6 +1,6 @@
-# SoCial
+# so_cial (So Social)
 
-TODO: Write a gem description
+This gem adds atm. twitters sharebutton on your page
 
 ## Installation
 
