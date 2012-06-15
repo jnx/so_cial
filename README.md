@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+In your viewfile add <%= social_button_for(:twitter) %> to get the twitter sharebutton
 
 ## Contributing
 
