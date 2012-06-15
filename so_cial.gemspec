@@ -4,8 +4,8 @@ require File.expand_path('../lib/so_cial/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Christian Hjalmarsson"]
   gem.email         = ["christian.hjalmarsson@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Generates buttons for social networks}
+  gem.summary       = %q{}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
