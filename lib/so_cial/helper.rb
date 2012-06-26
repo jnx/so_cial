@@ -1,6 +1,15 @@
 # encoding: utf-8
 module SoCial
   module Helper
+
+    def method_missing(method, *args)
+      service = /social_button_for_([a-z]*)/.match(method)
+      #raise args[:data].inspect
+
+      #data = args[:data]
+      social_button_for(service[1])
+    end
+
     def social_button_for(service, opts = {})
       data = opts[:data]
       html = []
